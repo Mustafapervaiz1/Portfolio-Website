@@ -1,36 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="main.css">    
+    <link rel="stylesheet" href="main.css">
     <title>protfolio website</title>
 </head>
+
 <body>
- <div id="header">
-    <div class="container">
-        
-        <nav>
-            <img src="./images/logo.png" alt="404 Error" class=" logo">
-           <ul class="list">
-                <li><a href="#">home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact Us</a></li>
-            
-            </ul>
-        </nav>
-        <div class="header-txt">
-            <p>MERN Stack Developer</p><br> 
-            <h1>hi, i'm <span style="color: chartreuse;">mustafa pervaiz</span> <br> from pakistan </h1>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="./images/logo.png" alt="404 Error" class=" logo">
+                <ul class="list">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-txt">
+                <p>MERN Stack Developer</p><br>
+                <h1>hi, i'm <span style="color: chartreuse;">mustafa pervaiz</span> <br> from pakistan </h1>
+            </div>
         </div>
     </div>
- </div>
-                   <!---- header section complete here-->
-                   <div class="aboutsection"></div>
+    <!----------------------------- header section complete here----------------------------------->
+    <div id="aboutsection">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="./images/user.png">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="subtittle">About</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos expedita dolorum optio modi
+                        reprehenderit inventore nesciunt ad! Vel cumque ratione earum numquam molestiae harum ut
+                        provident non, quisquam porro ad inventore soluta cum repudiandae tempora delectus quasi optio
+                        accusamus. Amet sint laudantium debitis dolore dolor inventore velit ratione laborum provident?
+                    </p>
+                    <div class="tab_tittles">
+                        <p  class="tab_links activelinks" onclick="opentab('skills')">Skills</p>
+                        <p class="tab_links activelinks" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab_links activelinks" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab_contents " id="skills">
+                        <ul>
+                            <li><span class="table_content_heading">UI/UX</span><br>web development <br>mobileapp</li>
+                        </ul>
+                        <ul>
+                            <li><span class="table_content_heading">backend developer</span><br>web development
+                                <br>mobileapp</li>
+                        </ul>
+                        <ul>
+                            <li><span class="table_content_heading">wordpress desginer</span><br>LANDING PAGE
+                                <br>mobileapp</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents " id="Experience">
+                        <ul>
+                            <li><span class="table_content_heading"></span><br>web development <br>At upwork</li>
+                        </ul>
+                        <ul>
+                            <li><span class="table_content_heading">engine assembling</span><br>At <br>pak suzuki motors
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents " id="Education">
+                        <ul>
+                            <li><span class="table_content_heading">mobile and app development </span><br>FROM <br>
+                                saylani mass it training center</li>
+                        </ul>
 
-                   
- <script src="mob.js"></script>
-    </body>
+                        <ul>
+                            <li><span class="table_content_heading">Matriculation </span><br>FROM <br> Wisdom acedemy
+                                School</li>
+                        </ul>
+
+                        <ul>
+                            <li><span class="table_content_heading">FSC </span><br>FROM <br> Ecomplex college</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="mob.js"></script>
+</body>
+
 </html>

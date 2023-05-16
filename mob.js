@@ -1,2 +1,10 @@
-var a  = [4,1,2,1,3,2,2,1,2,1,1,2,2,3,3,1,2,3,2,22,2,4,2,2,2,2,1,2,1,2,2,2,2,1,2,2,2,1,2,2,3,2]
-console.log(a.length);
+
+var tab_links= document.getElementsByClassName('tab_links')
+var tab_content= document.getElementsByClassName('tab_content')
+
+function opentab( ){    
+    for (skills of skill){
+        tab_links.classlist.remove("activelinks")}
+    for (tabcontent of tabcontent){
+        tab_content.classlist.add("activetab")
+        }}
